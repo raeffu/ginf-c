@@ -1,0 +1,31 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+### CPU
+Alle LDA Befehle implementieren.
+
+mu-code.c
+
+### compilieren
+
+1. make graphic-main
+2. ./graphic-main --memory sipiu-codebase/disco/disco.mem
+3. memory files in sipiu
+4. step [anzahl]
+5. exit // raus aus monitor
+5. Ctrl+C zurück nach console
+6. quit zum beenden
+
+auf speicher zugreifen
+pcl -> abrl
+pch -> abrh
+
+set_rw2read()
+access_memmory()
+
+variablen zur Verfügung:
+acc= a register, pcl, pch, abrh, abrl, dbr, (ir), idx = xregister, idy = yregister
+
+lda_imm
+pcl pch direkt in abrh abrl
