@@ -1,0 +1,12 @@
+[submodule "cpu"]
+	path = cpu
+	url = git@github.com:raeffu/ginf-c-cpu.git
+[submodule "strings"]
+	path = strings
+	url = git@github.com:raeffu/ginf-c-strings.git
+[submodule "pointers"]
+	path = pointers
+	url = git@github.com:raeffu/ginf-c-pointers.git
+[submodule "alu"]
+	path = alu
+	url = git@github.com:raeffu/ginf-c-alu.git
