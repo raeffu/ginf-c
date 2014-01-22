@@ -10,3 +10,6 @@
 [submodule "alu"]
 	path = alu
 	url = git@github.com:raeffu/ginf-c-alu.git
+[submodule "test"]
+	path = test
+	url = git@github.com:raeffu/ginf-c-test.git
